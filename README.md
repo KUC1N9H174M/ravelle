@@ -19,11 +19,11 @@
 
 ### Home Page
 
-![Ravelle Home](./assets/preview-home.png)
+![Ravelle Home](./screenshot0.png)
 
 ### Player Page
 
-![Ravelle Player](./assets/preview-player.png)
+![Ravelle Player](./screenshot1.png)
 
 ## Features
 
