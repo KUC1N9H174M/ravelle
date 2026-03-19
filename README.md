@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo-rounded.png" alt="Ravelle Logo" width="140">
+  <img src="./img0.png" alt="Ravelle Logo" width="140">
 </p>
 
 <h1 align="center">Ravelle</h1>
