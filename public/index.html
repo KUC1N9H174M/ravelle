@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Ravelle | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <div class="app-shell">
+    <header class="yt-topbar">
+      <div class="yt-topbar-inner">
+        <a href="/" class="yt-brand" aria-label="ravelle home"><span class="yt-brand-text">ravelle</span></a>
+        <form class="yt-search-area" action="/search.html" method="get" role="search">
+          <div class="yt-search-wrap">
+            <input id="searchInput" name="q" type="search" placeholder="Search" aria-label="Search videos" autocomplete="off">
+            <button type="submit" class="yt-search-button" aria-label="Search">
+              <span class="yt-icon-shape ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M11 2a9 9 0 105.641 16.01.966.966 0 00.152.197l3.5 3.5a1 1 0 101.414-1.414l-3.5-3.5a1 1 0 00-.197-.153A8.96 8.96 0 0020 11a9 9 0 00-9-9Zm0 2a7 7 0 110 14 7 7 0 010-14Z"></path></svg></div></span>
+            </button>
+          </div>
+        </form>
+        <div class="header-actions">
+          <button type="button" id="uploadButton" class="yt-upload-button">Upload</button>
+          <input id="uploadInput" type="file" accept=".mp4,.mkv,.webm,.ts,.m3u8" multiple hidden>
+        </div>
+      </div>
+      <div class="topbar-divider"></div>
+    </header>
+    <main class="content-wrap home-wrap">
+      <section id="videos" class="yt-grid" aria-live="polite"></section>
+      <div id="emptyState" class="empty-state hidden">No videos found.</div>
+    </main>
+    <footer class="site-footer">© Copyright by <a href="https://github.com/KUC1N9H174M" target="_blank" rel="noreferrer">KUC1N9H174M</a> - 2026</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
